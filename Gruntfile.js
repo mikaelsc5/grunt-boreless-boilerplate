@@ -97,7 +97,8 @@ module.exports = function(grunt) {
 				}
 			},
 			watch: {
-				browsers: ['Chrome'],
+				browsers: ['PhantomJS'],
+				captureTimeout: 15000,
 				singleRun: false,
 				autoWatch: true,
 				reporters: ['dots'],
